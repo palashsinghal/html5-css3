@@ -1,0 +1,127 @@
+/**a:link and a:hover are used to allow for no text decoration to hyperlinks and allow for an underline when 
+mouse hovers over it**/
+
+a:link{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/**nav ul li {} and nav ul{} are used to style the header**/
+
+nav ul li{
+	display: inline;
+	font-family: 'Asap', sans-serif;
+	font-size: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: black;
+}
+
+nav ul{
+	margin-top: 25px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+/**Styling the form**/
+
+form li{
+	list-style: none;
+	text-align: center;
+	font-size: 17px;
+}
+
+form li h3{
+	font-family: 'Bitter', sans-serif;
+	opacity: 0.87
+}
+
+/**Footer formatting**/
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/** .grid_4 h5 footer li a is used to color the footer hyperlinks black**/
+
+.grid_4 h5,
+footer li a{
+	color: black;
+}
+
+/** .top{}, .header{} and .logo{} are used to style the header**/
+
+.top{
+	position: fixed;
+	z-index: 100;
+	background-color: white;
+}
+
+.header{
+	margin-left: 200px;
+}
+
+.logo{
+	padding-top: 10px;
+}
+
+/**.image has been used to put the main hero image in the center of the page**/
+
+.image{
+	padding-top: 80px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Following 4 class styles are used for the division containing the link to service centers and list of testimonials. Background has been colored
+gray, data definitions have been made bold and the hyperlinks have been made black*/
+
+.service_testimonial{
+	background-color: #f5f5f5;
+}
+
+.grid_8 dd{
+	font-weight: bold;
+}
+
+.grid_4 a{
+	color: black;
+}
+
+.grid_8 dt a{
+	text-decoration: underline;
+	color: black;
+}
+
+/** .photo is used to display the images for phone models, accessories and amazon exclusive just below the hero image**/
+
+.photo{
+	width: 260px;
+	height: 200px;
+}
+
+
+/*The last three class styles are used for form background color, footer font setting and background color*/
+
+.form{
+	background-color: grey;
+}
+
+.font{
+	font-family: 'Crete Round', serif;
+}
+
+.footer{
+	background-color: #e0e0e0;
+}
+
+
